@@ -15,17 +15,17 @@ namespace C_ShapeAreaCalculator
 
             if (answer == "r" )
             {
-                Console.WriteLine("Please enter the height of the rectangle.");
+                Console.WriteLine("\nPlease enter the height of the rectangle.");
                 float height = float.Parse(Console.ReadLine());
 
-                Console.WriteLine("Please enter the width of the rectangle.");
+                Console.WriteLine("\nPlease enter the width of the rectangle.");
                 float width = float.Parse(Console.ReadLine());
 
                 result = height * width;
             }
             else 
             {
-                Console.WriteLine("Please enter the radius of the circle.");
+                Console.WriteLine("\nPlease enter the radius of the circle.");
                 float radius = float.Parse(Console.ReadLine());
 
                 result = (float)Math.PI * (radius * radius);
